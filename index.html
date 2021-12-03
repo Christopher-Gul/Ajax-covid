@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+<head>
+<title>Covid-19</title>
+
+
+</head>
+<body>
+
+    <div class="header">
+        <img style='height: 300px; width: 100%; object-fit: header' src="https://media.istockphoto.com/vectors/novel-coronavirus-2019ncov-virus-covid-19ncp-coronavirus-ncov-denoted-vector-id1216027147?k=20&m=1216027147&s=612x612&w=0&h=vLuEkGdPRBSr9yJMRlHv1Jv8HAUoCVgNMNGHyLtVf2c=" alt="logo" />
+        
+      </div>
+
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Etsi maa..." title="Type in a name">
+
+<table id="myTable">
+  <tr class="header">
+    <th style="width:33%;">Maa</th>
+    <th style="width:33%;">Tartunnat</th>
+    <th style="width:33%;">Kuolemat</th>
+  </tr>
+  <tr>
+    <td>Norja</td>
+    <td id="norja"> </td>
+    <td id="norjat"> </td>
+  </tr>
+  <tr>
+    <td>Ruotsi</td>
+    <td id="ruotsi"> </td>
+    <td id="ruotsit"> </td>
+  </tr>
+  <tr>
+    <td>Suomi</td>
+    <td id="suomi"> </td>
+    <td id="suomit"> </td>
+  </tr>
+  <tr>
+    <td>Tanska</td>
+    <td id="tanska"> </td>
+    <td id="tanskat"> </td>
+  </tr>
+  <tr>
+    <td>Viro</td>
+    <td id="viro"> </td>
+    <td id="virot"> </td>
+  </tr>
+  <tr>
+    <td>Maailma</td>
+    <td id="tartunnat"> </td>
+    <td id="maailmaD"> </td>
+  </tr>
+</table>
+
+
+<button id="btn" >Päivitä tiedot</button>
+
+
+<footer class="page-footer font-small blue">
+    
+    <div class="footer-copyright text-center py-3">
+    <a id="thl" href="https://thl.fi/fi/">THL</a>
+    <a id="ajan" href="https://thl.fi/fi/web/infektiotaudit-ja-rokotukset/ajankohtaista/ajankohtaista-koronaviruksesta-covid-19">Ajankohtaista</a>
+    <a id="suosi" href="https://thl.fi/fi/web/infektiotaudit-ja-rokotukset/ajankohtaista/ajankohtaista-koronaviruksesta-covid-19/tilannekatsaus-koronaviruksesta/koronaepidemia-alueiden-tilanne-suositukset-ja-rajoitukset">Suositukset/rajoitukset</a>
+    </div>
+</footer>
+
+
+
+<script src="json.js"> </script>
+
+ 
+</body>
+
+</html>
